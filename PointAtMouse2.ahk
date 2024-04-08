@@ -13,11 +13,11 @@ fing.Add("Pic", "BackgroundTrans AltSubmit", finger)
 WinSetTranscolor("FF0072")
 
 on := True
-SetTimer(draw,10)
+SetTimer(draw,20)
 F1::
 { 	Global on
 	If on := !on {
-		SetTimer(draw,10)
+		SetTimer(draw,20)
 	} Else {
 		SetTimer(draw,0)
 		fing.Hide()
