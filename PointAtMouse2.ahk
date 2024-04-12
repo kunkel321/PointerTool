@@ -31,5 +31,5 @@ draw() {
 	fing.Show("NA x" x-325 "y" y-50)
 }
 
-Esc::ExitApp()
+Esc::ExitApp
 
