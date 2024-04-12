@@ -15,8 +15,8 @@ WinSetTranscolor("FF0072")
 on := True
 SetTimer(draw,20)
 F1::
-{ 	Global on
-	If on := !on {
+{ 	Global on := !on
+	If on {
 		SetTimer(draw,20)
 	} Else {
 		SetTimer(draw,0)
